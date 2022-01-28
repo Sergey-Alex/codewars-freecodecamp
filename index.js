@@ -62,9 +62,37 @@
 // solution('qwer')
 
 // function openOrSenior(data){
-//
-//     return data.map(([age, handicap]) => (age > 54 && handicap > 7) ? 'Senior' : 'Open');
-//
+// //
+// //     return data.map(([age, handicap]) => (age > 54 && handicap > 7) ? 'Senior' : 'Open');
+// //
+// //
+// // }
+// // console.log(openOrSenior([[45, 12],[55,21],[19, -2],[104, 20]]))
+
+
+// function toCamelCase(str) {
+//      str = str.split('')
+//     return str.map((el,i) => {
+//         if (el === '-' || el === '_'){
+//             el = str[i+1].toUpperCase()
+//             str.splice(i+1, 1)
+//         }
+//         return el
+//     }).join('')
 //
 // }
-// console.log(openOrSenior([[45, 12],[55,21],[19, -2],[104, 20]]))
+//
+// console.log(toCamelCase('as-asd'))
+
+function pigIt(str) {
+    str = str.trim().split(/\s{1,}/);
+    return str.map(val => {
+        if (/^[A-Za-z]+$/.test(val)) {
+            return `${val.slice(1)}${val.slice(0, 1)}ay`;
+        }
+        return val;
+    }).join(' ');
+}
+
+
+console.log(pigIt('dad mom'))
