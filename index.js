@@ -184,3 +184,51 @@
 // }
 //
 // console.log(myArray)
+/*
+Учитывая строку слов, вам нужно найти слово с наивысшим баллом.
+Каждая буква слова оценивается в зависимости от ее положения в алфавите: a = 1, b = 2, c = 3 и т. д.
+Вам нужно вернуть слово с наивысшим баллом в виде строки.
+Если два слова оцениваются одинаково, верните слово, которое появляется первым в исходной строке.
+Все буквы будут строчными, и все входные данные будут действительными.
+ */
+
+// function high(s) {
+//     let as = s.split(' ').map(s => [...s].reduce((a, b) => a+b.charCodeAt(0) - 96, 0)
+//     );
+//     return s.split(' ')[as.indexOf(Math.max(...as))];
+//
+// }
+//
+// console.log(high('All letters will be lowercase and all inputs will be valid'))
+
+// String.prototype.camelCase = function () {
+//     return this.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join('')
+// }
+//
+// console.log("hello case".camelCase())
+
+function humanReadable(sec) {
+    if (sec < 359999){
+        let hour = (sec/3600)
+        let min = ((hour - Math.floor(hour))*60)
+        let seconds = (((min- Math.floor(min))*60).toFixed(0))
+
+        console.log(addZero(Math.floor(hour)) +
+            ':'+ addZero(Math.floor(min)) + ':' + addZero(seconds))
+    } else if (sec === 0) {
+        return '00:00:00'
+    }
+
+    function addZero(num) {
+        if (num >=0 && num <= 9){
+            return '0' + num
+        } else {
+            return  num
+        }
+    }
+
+
+}
+
+humanReadable(86399)
+
