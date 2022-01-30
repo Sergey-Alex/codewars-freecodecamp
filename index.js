@@ -274,3 +274,53 @@
 //
 // console.log(myArray)
 // console.log(i)
+
+// function sum(arr, n) {
+//     if (n <= 0) {
+//         return 0;
+//     } else {
+//         return sum(arr, n - 1) + arr[n - 1];
+//     }
+// }
+//
+// console.log(sum([2, 3, 4, 5], 3))
+const contacts = [
+    {
+        firstName: "Akira",
+        lastName: "Laine",
+        number: "0543236543",
+        likes: ["Pizza", "Coding", "Brownie Points"],
+    },
+    {
+        firstName: "Harry",
+        lastName: "Potter",
+        number: "0994372684",
+        likes: ["Hogwarts", "Magic", "Hagrid"],
+    },
+    {
+        firstName: "Sherlock",
+        lastName: "Holmes",
+        number: "0487345643",
+        likes: ["Intriguing Cases", "Violin"],
+    },
+    {
+        firstName: "Kristian",
+        lastName: "Vos",
+        number: "unknown",
+        likes: ["JavaScript", "Gaming", "Foxes"],
+    },
+];
+
+// function lookUpProfile(name, prop) {
+//         let message = 'No such contact'
+//     for (let el in contacts){
+//             if (contacts[el].firstName === name && contacts[el].hasOwnProperty(prop)) {
+//                 message = contacts[el][prop]
+//             } else if (!contacts[el].hasOwnProperty(prop)){
+//                 message = 'No such property'
+//             }
+//     }
+//     return message
+// }
+//
+// console.log(lookUpProfile("Bob", "potato"))
