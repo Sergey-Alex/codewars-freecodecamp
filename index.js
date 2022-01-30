@@ -364,3 +364,13 @@
 // }
 //
 // console.log(checkObj({gift: "pony", pet: "kitten", bed: "sleigh"}, "gift"))
+//
+// function fundNeedle(haystack) {
+//     for (let i = 0 ; i < haystack.length; i++){
+//         if (haystack[i] === 'needle'){
+//             return `found the needle at position ${i}`
+//         }
+//     }
+// }
+//
+// console.log(fundNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk']))
