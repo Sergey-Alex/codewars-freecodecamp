@@ -207,28 +207,55 @@
 //
 // console.log("hello case".camelCase())
 
-function humanReadable(sec) {
-    if (sec < 359999){
-        let hour = (sec/3600)
-        let min = ((hour - Math.floor(hour))*60)
-        let seconds = (((min- Math.floor(min))*60).toFixed(0))
+// function humanReadable(sec) {
+//     if (sec < 359999){
+//         let hour = (sec/3600)
+//         let min = ((hour - Math.floor(hour))*60)
+//         let seconds = (((min- Math.floor(min))*60).toFixed(0))
+//
+//         console.log(addZero(Math.floor(hour)) +
+//             ':'+ addZero(Math.floor(min)) + ':' + addZero(seconds))
+//     } else if (sec === 0) {
+//         return '00:00:00'
+//     }
+//
+//     function addZero(num) {
+//         if (num >=0 && num <= 9){
+//             return '0' + num
+//         } else {
+//             return  num
+//         }
+//     }
+//
+//
+// }
+//
+// humanReadable(86399)
 
-        console.log(addZero(Math.floor(hour)) +
-            ':'+ addZero(Math.floor(min)) + ':' + addZero(seconds))
-    } else if (sec === 0) {
-        return '00:00:00'
-    }
 
-    function addZero(num) {
-        if (num >=0 && num <= 9){
-            return '0' + num
-        } else {
-            return  num
-        }
-    }
+// const myArray = [];
+// for (let i = 9; i > 0; i -= 2) {
+//     myArray.push(i);
+// }
+// console.log(myArray)
 
+// const myArr = [2, 3, 4, 5, 6];
+// let total = 0
+// for(let i = 0; i <myArr.length; i++){
+//     total += myArr[i]
+// }
+//
+// console.log(total)
 
-}
-
-humanReadable(86399)
-
+// function multiplyAll(arr) {
+//     let product = 1;
+//     for (let i = 0; i < arr.length; i++){
+//         for (let  j = 0; j < arr[i].length; j++){
+//              product  *= arr[i][j]
+//
+//         }
+//     }
+//     return console.log(product);
+// }
+//
+// multiplyAll([[5, 1], [0.2, 4, 0.5], [3, 9]]);
