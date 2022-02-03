@@ -405,7 +405,15 @@
 //         const newArr = String(n).split('').reverse()
 //         newArr.map(item => res.push(Number(item)))
 //         return  res
+//     } if (n === 0) {
+//         return  [0]
 //     }
 // }
 //
-// console.log(digitize(45456464))
+// console.log(digitize(0))
+
+// function solution(str){
+//     return str.split('').reverse().join('')
+// }
+//
+// console.log(solution('asd'))
