@@ -397,3 +397,15 @@
 //
 // console.log(reverseSeq(5))
 //
+
+// function digitize(n) {
+//
+//     if (n > 0) {
+//         let res = []
+//         const newArr = String(n).split('').reverse()
+//         newArr.map(item => res.push(Number(item)))
+//         return  res
+//     }
+// }
+//
+// console.log(digitize(45456464))
