@@ -417,3 +417,14 @@
 // }
 //
 // console.log(solution('asd'))
+
+// function iceBrickVolume(radius, bottleLength, rimLength) {
+//     if (radius > 0 && bottleLength > 0 && rimLength > 0 && bottleLength > rimLength) {
+//         let hCube = bottleLength - rimLength
+//         let volume = 2*(radius**2)*hCube
+//         return volume
+//     } else {
+//         return null
+//     }
+// }
+// console.log(iceBrickVolume(5, 30, 7))
