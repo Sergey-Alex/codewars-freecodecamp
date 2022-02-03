@@ -374,3 +374,26 @@
 // }
 //
 // console.log(fundNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk']))
+
+// function eachCons(array, n) {
+//     const newArr = [];
+//     for (let i = 0; i <= array.length -n ; i++){
+//         newArr.push(array.slice(i, i + n))
+//     }
+//
+//
+//     return newArr;
+// }
+//
+// console.log(eachCons([1,2,3,4], 2))
+
+// const reverseSeq = (n) => {
+//     const arr = []
+//     for (let i = n; i > 0; i--){
+//         arr.push(i)
+//     }
+//     return arr
+// }
+//
+// console.log(reverseSeq(5))
+//
