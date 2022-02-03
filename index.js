@@ -428,3 +428,7 @@
 //     }
 // }
 // console.log(iceBrickVolume(5, 30, 7))
+// function getChar(c){
+//    return  String.fromCharCode(c)
+// }
+// console.log(getChar(65))
