@@ -261,7 +261,6 @@
 // multiplyAll([[5, 1], [0.2, 4, 0.5], [3, 9]]);
 
 
-
 // const myArray = [];
 // let i = 10;
 //
@@ -433,8 +432,20 @@
 // }
 // console.log(getChar(65))
 
-function toFreud(string) {    return !string ? '' : string.split(' ').map(s =>  'sex').join(' ')
+// function toFreud(string) {    return !string ? '' : string.split(' ').map(s =>  'sex').join(' ')
+// }
+//
+// console.log(toFreud(
+// 'This is a test'))
+
+function sumOfDifferences(arr) {
+    return arr.sort((a, b) => b - a).reduce((acc, curr, index, array) => {
+        const next = array[index + 1]
+        if (!isNaN(curr - next)) {
+            acc += curr - next
+        }
+        return acc
+    }, 0)
 }
 
-console.log(toFreud(
-'This is a test'))
+console.log(sumOfDifferences([1, 2, 3]))
