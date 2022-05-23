@@ -432,3 +432,9 @@
 //    return  String.fromCharCode(c)
 // }
 // console.log(getChar(65))
+
+function toFreud(string) {
+    return !string ? '' : string.split(' ').map(s =>  'sex').join(' ')
+}
+
+console.log(toFreud('This is a test'))
