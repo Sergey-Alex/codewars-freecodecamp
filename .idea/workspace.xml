@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d23b1bdf-ef91-4003-9730-38e6d248608e" name="Changes" comment="">
+    <list default="true" id="d23b1bdf-ef91-4003-9730-38e6d248608e" name="Changes" comment="toFreud">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653314330478</updated>
-      <workItem from="1653314331615" duration="1089000" />
+      <workItem from="1653314331615" duration="1299000" />
     </task>
     <servers />
   </component>
@@ -65,5 +66,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="toFreud" />
+    <option name="LAST_COMMIT_MESSAGE" value="toFreud" />
   </component>
 </project>
