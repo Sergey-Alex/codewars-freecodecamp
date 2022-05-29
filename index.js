@@ -449,3 +449,14 @@
 // }
 //
 // console.log(sumOfDifferences([1, 2, 3]))
+
+// const min = function(list){
+//     return console.log(Math.min.apply(null,list))
+// }
+//
+// const max = function(list){
+//     return console.log(Math.max.apply(null,list))
+// }
+//
+// max([4,6,2,1,9,63,-134,566])
+// min([4,6,2,1,9,63,-134,566])
