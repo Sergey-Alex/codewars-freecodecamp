@@ -460,3 +460,9 @@
 //
 // max([4,6,2,1,9,63,-134,566])
 // min([4,6,2,1,9,63,-134,566])
+//
+// function century(year) {
+//   return   Math.floor((year-1)/100) + 1;
+// }
+//
+// console.log(century(1900))
