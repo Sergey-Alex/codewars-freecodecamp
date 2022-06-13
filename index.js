@@ -473,16 +473,16 @@
 //
 // console.log(nameShuffler('john McClane'))
 
-function powersOfTwo(n){
-    let arr = []
-    if (n>=0 && (n^0) === n){
-        for (let i = 0; i<= n; i++){
-            let m = Math.pow(2, i)
-            arr.push(m)
-        }
-    }
-    return arr
-
-}
-
-console.log(powersOfTwo(2))
+// function powersOfTwo(n){
+//     let arr = []
+//     if (n>=0 && (n^0) === n){
+//         for (let i = 0; i<= n; i++){
+//             let m = Math.pow(2, i)
+//             arr.push(m)
+//         }
+//     }
+//     return arr
+//
+// }
+//
+// console.log(powersOfTwo(2))
