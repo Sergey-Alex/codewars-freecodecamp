@@ -466,9 +466,23 @@
 // }
 //
 // console.log(century(1900))
+//
+// function nameShuffler(str){
+//    return str.split(' ').reverse().join(' ')
+// }
+//
+// console.log(nameShuffler('john McClane'))
 
-function nameShuffler(str){
-   return str.split(' ').reverse().join(' ')
+function powersOfTwo(n){
+    let arr = []
+    if (n>=0 && (n^0) === n){
+        for (let i = 0; i<= n; i++){
+            let m = Math.pow(2, i)
+            arr.push(m)
+        }
+    }
+    return arr
+
 }
 
-console.log(nameShuffler('john McClane'))
+console.log(powersOfTwo(2))
