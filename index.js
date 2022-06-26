@@ -486,3 +486,20 @@
 // }
 //
 // console.log(powersOfTwo(2))
+
+// function squareSum(numbers){
+//     return numbers && numbers.reduce((acc, num) => num*num + acc)
+// }
+// console.log(squareSum([1,2,2]))
+
+// String.prototype.toJadenCase = function () {
+//    return this.split(' ')
+//        .map(i => i.charAt(0).toUpperCase() + i.slice(1, i.length))
+//        .join(' ')
+// };
+//
+// console.log('aaa bbb ccc'.toJadenCase())
+
+function arrayDiff(a, b) {
+
+}
