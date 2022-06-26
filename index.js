@@ -502,4 +502,14 @@
 
 function arrayDiff(a, b) {
 
+    if (a.length !== 0 && b.length !== 0) {
+      return   a.filter(el => !b.includes(el))
+    }
+    if (a.length === [] ){
+        return   b
+    } if (b.length === [] ){
+        return   a
+    }
 }
+
+console.log((arrayDiff([1, 2, 2], [2])))
