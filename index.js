@@ -514,14 +514,50 @@
 //
 // console.log((arrayDiff([1, 2, 2], [2])))
 
-function persistence(num) {
+// function persistence(num) {
+//
+//     return `${num}`.length > 1
+//         ? 1 +  persistence(`${num}`
+//         .split('')
+//         .reduce((a,b)=> a*b)) : 0
+//
+// }
+//
+// console.log(persistence(999))
 
-    return `${num}`.length > 1
-        ? 1 +  persistence(`${num}`
-        .split('')
-        .reduce((a,b)=> a*b)) : 0
 
+
+
+
+function filter_list(l) {
+    return  l.filter(el => (typeof el === 'number'))
 }
 
-console.log(persistence(999))
+
+console.log(filter_list([1,'a','b',0,15]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
