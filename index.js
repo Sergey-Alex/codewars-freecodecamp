@@ -527,17 +527,27 @@
 
 
 
+//
+//
+// function filter_list(l) {
+//     return  l.filter(el => (typeof el === 'number'))
+// }
+//
+//
+// console.log(filter_list([1,'a','b',0,15]))
 
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
 
-function filter_list(l) {
-    return  l.filter(el => (typeof el === 'number'))
+            Math.min(...args)
+
+    }
 }
 
 
-console.log(filter_list([1,'a','b',0,15]))
 
-
-
+let sif = new SmallestIntegerFinder();
+console.log(sif.findSmallestInt([78,56,232,12,8]))
 
 
 
