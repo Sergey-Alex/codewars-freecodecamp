@@ -552,21 +552,24 @@
 
 
 
-function onePunch(items){
-    return  typeof  items === 'string' && items.length > 0 ? items
-        .split(` `)
-        .sort((a, b) => a.localeCompare(b))
-        .join` `
-        .replace(/[ea]/gi,'') : 'Broken'
-} //Don't leave this line!!
+// function onePunch(items){
+//     return  typeof  items === 'string' && items.length > 0 ? items
+//         .split(` `)
+//         .sort((a, b) => a.localeCompare(b))
+//         .join` `
+//         .replace(/[ea]/gi,'') : 'Broken'
+// } //Don't leave this line!!
+//
 
 
 
+function cockroachSpeed(s) {
+        let cmPerSec = s * (100000/3600)
+    return Math.floor(cmPerSec)
+}
 
 
-
-
-
+console.log(cockroachSpeed(1.08))
 
 
 
