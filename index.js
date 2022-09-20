@@ -536,23 +536,29 @@
 //
 // console.log(filter_list([1,'a','b',0,15]))
 
-class SmallestIntegerFinder {
-    findSmallestInt(args) {
-
-            Math.min(...args)
-
-    }
-}
-
-
-
-let sif = new SmallestIntegerFinder();
-console.log(sif.findSmallestInt([78,56,232,12,8]))
-
-
-
+// class SmallestIntegerFinder {
+//     findSmallestInt(args) {
+//
+//             Math.min(...args)
+//
+//     }
+// }
+//
+//
+//
+// let sif = new SmallestIntegerFinder();
+// console.log(sif.findSmallestInt([78,56,232,12,8]))
+//
 
 
+
+function onePunch(items){
+    return  typeof  items === 'string' && items.length > 0 ? items
+        .split(` `)
+        .sort((a, b) => a.localeCompare(b))
+        .join` `
+        .replace(/[ea]/gi,'') : 'Broken'
+} //Don't leave this line!!
 
 
 
